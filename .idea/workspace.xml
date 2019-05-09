@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad3967ed-4ff8-4e34-b246-eac21d2d7466" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/erweima.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/userLogo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/archive/archive.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/archive/archive.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/slider/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slider/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,136 +76,67 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1096271217">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="1" />
+          <entry key="jpeg" value="2" />
+          <entry key="js" value="2" />
+          <entry key="png" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+          <entry key="Image" value="3" />
+          <entry key="JavaScript" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="32" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JavaScript" value="32" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="blog-react" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/archive/archive.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/home/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="119" column="11" lean-forward="true" selection-start-line="119" selection-start-column="11" selection-end-line="119" selection-end-column="11" />
+            <state relative-caret-position="168">
+              <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
               <folding>
-                <element signature="n#Archive#0" />
-                <element signature="n#!!block;n#constructor#0;n#Archive#0" />
-                <element signature="e#431#735#0" />
-                <element signature="n#!!block;n#componentDidMount#0;n#Archive#0" />
-                <element signature="e#889#2119#0" />
-                <element signature="e#913#953#0" />
-                <element signature="e#1008#1311#0" />
-                <element signature="e#1034#1353#0" />
-                <element signature="e#1338#2034#0" />
-                <element signature="e#1449#1942#0" />
-                <element signature="e#1485#1716#0" />
-                <element signature="e#1788#1924#0" />
-                <element signature="e#1828#1900#0" />
-                <element signature="e#1948#2020#0" />
-                <element signature="e#2062#2111#0" />
-                <element signature="n#!!block;n#render#0;n#Archive#0" />
-                <element signature="e#2206#3563#0" />
-                <element signature="e#2295#2425#0" />
-                <element signature="e#2578#3523#0" />
-                <element signature="e#2650#3466#0" />
-                <element signature="e#2742#3601#0" />
-                <element signature="e#2761#3021#0" />
-                <element signature="e#3148#3547#0" />
-                <element signature="e#3095#3320#0" />
-                <element signature="e#3909#4123#0" />
-                <element signature="e#3954#4028#0" />
+                <element signature="e#0#22#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/timeLine/timeLine.js">
+        <entry file="file://$PROJECT_DIR$/public/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="106" column="52" lean-forward="true" selection-start-line="106" selection-start-column="52" selection-end-line="106" selection-end-column="52" />
+            <state relative-caret-position="242">
+              <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/article/article.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/slider/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="349" column="16" lean-forward="true" selection-start-line="349" selection-start-column="16" selection-end-line="349" selection-end-column="16" />
+            <state relative-caret-position="147">
+              <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
               <folding>
-                <element signature="n#Articles#0" />
-                <element signature="n#!!block;n#constructor#0;n#Articles#0" />
-                <element signature="e#635#1233#0" />
-                <element signature="e#827#1226#0" />
-                <element signature="n#!!block;n#handleAddComment#0;n#Articles#0" />
-                <element signature="e#1582#1638#0" />
-                <element signature="e#1668#1725#0" />
-                <element signature="e#1788#1890#0" />
-                <element signature="e#1896#1959#0" />
-                <element signature="e#1979#2015#0" />
-                <element signature="e#2074#2195#0" />
-                <element signature="e#2259#2688#0" />
-                <element signature="e#2353#2617#0" />
-                <element signature="e#2427#2501#0" />
-                <element signature="e#2623#2680#0" />
-                <element signature="e#2710#2745#0" />
-                <element signature="n#!!block;n#refreshArticle#0;n#Articles#0" />
-                <element signature="n#!!block;n#handleChange#0;n#Articles#0" />
-                <element signature="e#2913#2967#0" />
-                <element signature="n#!!block;n#likeArticle#0;n#Articles#0" />
-                <element signature="e#3032#3088#0" />
-                <element signature="e#3151#3253#0" />
-                <element signature="e#3259#3322#0" />
-                <element signature="e#3341#3371#0" />
-                <element signature="e#3431#3505#0" />
-                <element signature="e#3569#3947#0" />
-                <element signature="e#3626#3876#0" />
-                <element signature="e#3746#3816#0" />
-                <element signature="e#3882#3939#0" />
-                <element signature="e#3969#4004#0" />
-                <element signature="n#!!block;n#handleSearch#0;n#Articles#0" />
-                <element signature="e#4059#4089#0" />
-                <element signature="e#4154#4224#0" />
-                <element signature="e#4288#5285#0" />
-                <element signature="e#4345#5214#0" />
-                <element signature="e#4563#4827#0" />
-                <element signature="e#4729#4813#0" />
-                <element signature="e#5220#5277#0" />
-                <element signature="e#5307#5342#0" />
-                <element signature="n#!!block;n#componentWillUnmount#0;n#Articles#0" />
-                <element signature="n#!!block;n#componentWillMount#0;n#Articles#0" />
-                <element signature="e#5753#5978#0" />
-                <element signature="e#5784#5831#0" />
-                <element signature="e#5847#5962#0" />
-                <element signature="e#5984#6087#0" />
-                <element signature="n#!!block;n#render#0;n#Articles#0" />
-                <element signature="e#6284#6354#0" />
-                <element signature="e#6383#9921#0" />
-                <element signature="e#6426#9547#0" />
-                <element signature="e#6489#8355#0" />
-                <element signature="e#6600#8338#0" />
-                <element signature="e#6639#6854#0" />
-                <element signature="e#6680#6833#0" />
-                <element signature="e#6874#8128#0" />
-                <element signature="e#6913#7025#0" />
-                <element signature="e#7042#7177#0" />
-                <element signature="e#7194#8107#0" />
-                <element signature="e#7235#7541#0" />
-                <element signature="e#7560#7670#0" />
-                <element signature="e#7689#7806#0" />
-                <element signature="e#7825#7948#0" />
-                <element signature="e#7967#8084#0" />
-                <element signature="e#8143#8275#0" />
-                <element signature="e#8423#8759#0" />
-                <element signature="e#8461#8742#0" />
-                <element signature="e#8573#8726#0" />
-                <element signature="e#8770#9051#0" />
-                <element signature="e#8806#9034#0" />
-                <element signature="e#9062#9279#0" />
-                <element signature="e#9290#9532#0" />
-                <element signature="e#9592#9870#0" />
-                <element signature="e#9719#9856#0" />
+                <element signature="e#0#22#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -211,9 +146,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Articles</find>
-      <find>&lt;Articles</find>
-      <find>getBlogList</find>
       <find>SAVE_ARTICLES_LIST</find>
       <find>api</find>
       <find>193.</find>
@@ -241,6 +173,9 @@
       <find>.get</find>
       <find>归档</find>
       <find>Timeline</find>
+      <find>时光正好，未来可期，加油 ！</find>
+      <find>BiaoChenXuYing</find>
+      <find>标签云</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -265,9 +200,9 @@
         <entry key="F:/myself/cinema_apiserver" value="PREVIEW" />
         <entry key="F:/myself/distribution_api" value="PREVIEW" />
         <entry key="F:/newmyself/distribution_api" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../myblog_api" value="PREVIEW" />
         <entry key="F:/sports_apiserver" value="PREVIEW" />
         <entry key="F:/在线项目/api-server" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../myblog_api" value="PREVIEW" />
       </map>
     </option>
   </component>
@@ -285,7 +220,6 @@
         <option value="$PROJECT_DIR$/src/utils/axios.js" />
         <option value="$PROJECT_DIR$/src/store/UserStore.js" />
         <option value="$PROJECT_DIR$/src/components/articles/articles.js" />
-        <option value="$PROJECT_DIR$/src/components/slider/index.js" />
         <option value="$PROJECT_DIR$/src/components/comments/list.js" />
         <option value="$PROJECT_DIR$/src/utils/https.js" />
         <option value="$PROJECT_DIR$/src/utils/urls.js" />
@@ -298,6 +232,8 @@
         <option value="$PROJECT_DIR$/scripts/start.js" />
         <option value="$PROJECT_DIR$/config/webpackDevServer.config.js" />
         <option value="$PROJECT_DIR$/src/components/archive/archive.js" />
+        <option value="$PROJECT_DIR$/src/components/home/index.js" />
+        <option value="$PROJECT_DIR$/src/components/slider/index.js" />
       </list>
     </option>
   </component>
@@ -327,45 +263,38 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="blog-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-react" type="462c0819:PsiDirectoryNode" />
+              <item name="hyy_blog_webPage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hyy_blog_webPage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="blog-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-react" type="462c0819:PsiDirectoryNode" />
+              <item name="hyy_blog_webPage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hyy_blog_webPage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="blog-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-react" type="462c0819:PsiDirectoryNode" />
+              <item name="hyy_blog_webPage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hyy_blog_webPage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="article" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553955135426" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557375881494" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hyy_blog_admin" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="F:\project_new\自己的库项目\博客借鉴\blog-react\node_modules\eslint" />
@@ -376,17 +305,17 @@
     <property name="ts.external.directory.path" value="E:\develop\ideaIU-2018.2.3\IntelliJ IDEA 2018.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\project_new\自己的库项目\博客借鉴\blog-react\src\components\article" />
-      <recent name="F:\project_new\自己的库项目\博客借鉴\blog-react\src\utils" />
-      <recent name="F:\project_new\自己的库项目\博客借鉴\blog-react\config" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\project_new\blog_project\hyy_blog_webPage\src\assets" />
       <recent name="F:\project_new\自己的库项目\博客借鉴\blog-react\src\components\article" />
       <recent name="F:\project_new\自己的库项目\博客借鉴\blog-react\src\store" />
       <recent name="F:\project_new\自己的库项目\博客借鉴\blog-react\src\utils" />
       <recent name="F:\project_new\自己的库项目\博客借鉴\blog-react\config" />
-      <recent name="F:\project_new\自己的库项目\博客借鉴\blog-react\public\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\project_new\自己的库项目\博客借鉴\blog-react\src\components\article" />
+      <recent name="F:\project_new\自己的库项目\博客借鉴\blog-react\src\utils" />
+      <recent name="F:\project_new\自己的库项目\博客借鉴\blog-react\config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -422,13 +351,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90416000" />
+    <option name="totallyTimeSpent" value="92207000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49769586" visible="true" weight="0.14599092" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49769586" visible="true" weight="0.1482602" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -445,7 +374,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32918552" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.11111111" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.20854701" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32786885" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3295082" />
@@ -472,16 +401,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="52" lean-forward="true" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/navigate.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/archive/index.less">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -541,29 +460,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/RootStore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/UserStore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/RootStore.js" />
+    <entry file="file://$PROJECT_DIR$/src/store/UserStore.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/antd/lib/icon/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
           <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/userLogo.jpeg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/utils.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -667,9 +571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -735,28 +636,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/home/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25200">
-          <caret line="1203" selection-start-line="1203" selection-end-line="1203" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/env.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="966">
           <caret line="79" column="7" lean-forward="true" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
-          <folding>
-            <element signature="e#287#389#0" />
-            <element signature="e#478#757#0" />
-            <element signature="e#554#606#0" />
-            <element signature="e#776#854#0" />
-            <element signature="e#1130#1277#0" />
-            <element signature="e#1165#1275#0" />
-            <element signature="e#1228#1263#0" />
-            <element signature="e#1281#1338#0" />
-            <element signature="e#2199#2276#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -778,13 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="60" column="4" lean-forward="true" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/slider/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="56" column="22" lean-forward="true" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -819,7 +695,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/article/article.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="349" column="16" lean-forward="true" selection-start-line="349" selection-start-column="16" selection-end-line="349" selection-end-column="16" />
+          <caret line="349" column="16" selection-start-line="349" selection-start-column="16" selection-end-line="349" selection-end-column="16" />
           <folding>
             <element signature="n#Articles#0" />
             <element signature="n#!!block;n#constructor#0;n#Articles#0" />
@@ -899,15 +775,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/timeLine/timeLine.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="106" column="52" lean-forward="true" selection-start-line="106" selection-start-column="52" selection-end-line="106" selection-end-column="52" />
+        <state relative-caret-position="1974">
+          <caret line="106" column="52" selection-start-line="106" selection-start-column="52" selection-end-line="106" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/archive/archive.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
-          <caret line="119" column="11" lean-forward="true" selection-start-line="119" selection-start-column="11" selection-end-line="119" selection-end-column="11" />
+          <caret line="119" column="18" lean-forward="true" selection-start-line="119" selection-start-column="18" selection-end-line="119" selection-end-column="18" />
           <folding>
             <element signature="n#Archive#0" />
             <element signature="n#!!block;n#constructor#0;n#Archive#0" />
@@ -916,7 +792,6 @@
             <element signature="e#889#2119#0" />
             <element signature="e#913#953#0" />
             <element signature="e#1008#1311#0" />
-            <element signature="e#1034#1353#0" />
             <element signature="e#1338#2034#0" />
             <element signature="e#1449#1942#0" />
             <element signature="e#1485#1716#0" />
@@ -925,16 +800,40 @@
             <element signature="e#1948#2020#0" />
             <element signature="e#2062#2111#0" />
             <element signature="n#!!block;n#render#0;n#Archive#0" />
-            <element signature="e#2206#3563#0" />
-            <element signature="e#2295#2425#0" />
-            <element signature="e#2578#3523#0" />
-            <element signature="e#2650#3466#0" />
-            <element signature="e#2742#3601#0" />
-            <element signature="e#2761#3021#0" />
-            <element signature="e#3148#3547#0" />
-            <element signature="e#3095#3320#0" />
             <element signature="e#3909#4123#0" />
-            <element signature="e#3954#4028#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/userLogo.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/BiaoChenXuYing.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/slider/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
