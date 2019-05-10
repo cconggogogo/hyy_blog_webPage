@@ -248,7 +248,7 @@ class Nav extends Component {
           >
             <Row className="container">
               <Col style={{ width: '25%', float: 'left', lineHeight: '64px' }}>
-                <a href="http://biaochenxuying.cn/main.html">
+                <a href="http://www.huyangyang.cn:81/">
                   <div className="logo">
                     <img src={logo} alt="" />
                   </div>
@@ -289,7 +289,7 @@ class Nav extends Component {
           >
             <Row className="container">
               <Col style={{ width: '120px', float: 'left' }}>
-                <a href="http://biaochenxuying.cn/main.html">
+                <a href="http://www.huyangyang.cn:81/">
                   <div className="logo ">
                     <img src={logo} alt="" />
                   </div>
@@ -375,7 +375,7 @@ class Nav extends Component {
                             onClick={this.showDrawer}
                             size="large"
                             icon="user"
-                            src={userInfo.avatar}
+                            src={"https://hyymyblog.oss-cn-hangzhou.aliyuncs.com/image.jpg?x-oss-process=style/thumbnail"}
                             style={{ marginRight: 5 }}
                           />
                           {userInfo.name}
