@@ -1,154 +1,169 @@
-![主页](https://upload-images.jianshu.io/upload_images/12890819-8420689b7238972a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![效果图1.gif](https://upload-images.jianshu.io/upload_images/12890819-226f48af9087c3cf.gif?imageMogr2/auto-orient/strip)
+
+![文章列表效果](https://upload-images.jianshu.io/upload_images/12890819-470c8996b8ebdfaf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+![评论审核效果](https://upload-images.jianshu.io/upload_images/12890819-80ae92fc0e493805.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 ## 前言
 
-此 blog 项目是基于 react 全家桶 + Ant Design 。
+此 blog-react-admin 项目是基于 [蚂蚁金服开源的 Blog Admin](https://pro.ant.design/index-cn) 之上，用 react 全家桶 + Blog Admin  的进行再次开发的，项目已经开源，项目地址在 github 上。
 
-## 效果
+效果预览 [http://www.huyangyang.cn:81/)
 
-效果图：
 
-- pc 端
+## 已实现功能
 
-![首页](https://upload-images.jianshu.io/upload_images/12890819-4fb796cd5ac5282d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-- 移动端适配
-
-![mobile.gif](https://upload-images.jianshu.io/upload_images/12890819-f97e98dfa9ac76b8.gif?imageMogr2/auto-orient/strip)
-
-完整效果请看：[http://biaochenxuying.cn:2019/](http://biaochenxuying.cn:2019/)
-
-## 功能描述
-
-### 已经实现功能
-
-- [x] 登录
-- [x] 注册
-- [x] 文章列表
-- [x] 标签分类
-- [x] 个人介绍
-- [x] 点赞与评论
-- [x] 留言
-- [x] 时间轴
+- [x] 登录  
+- [x] 文章管理
+- [x] 标签管理  
+- [x] 留言管理
+- [x] 用户管理
+- [x] 友情链接管理
+- [x] 时间轴管理
+- [x] 富文本编辑器（支持 MarkDown 语法）
 - [x] 项目展示
-- [x] 发文（支持 MarkDown 语法）
-- [x] 文章详情展示（支持代码语法高亮）
-- [x] 移动端适配
-- [x] 网站波浪效果(请看 https://biaochenxuying.cn/wave.html)
-- [x] 第三方 github 授权登录
-- [x] 文章归档
-- [x] 文章详情的目录
+- [x] 评论管理
 
-`因为访问地址 http://biaochenxuying.cn:2019/ 加了端口 2019 ，所以体验线上的授权功能会受限`
+## 待实现功能
 
-`完整功能请访问 vue + typescript + element-ui 版的 https://biaochenxuying.cn`
-
-### 待实现功能
-
-- [ ] 无
-
-## 前端技术
-
-- react： ^16.8.4
-- antd： ^3.15.0
-- react-router:：^4.3.1
-- webpack： 4.28.3
-- axios：0.18.0
-- redux: ^4.0.1
-- highlight.js： ^9.15.6
-- marked：^0.6.1
-
-## 项目搭建
-
-- 项目是按 antd 推荐的教程来搭建的：[antd 在 create-react-app 中使用](https://ant.design/docs/react/use-with-create-react-app-cn) , 实现了 按需加载组件代码和样式。
+- [ ] 个人中心（用来设置博主的各种信息）
+- [ ] 工作台（ 接入百度统计接口，查看网站浏览量和用户访问等数据 ）
 
 ## 主要项目结构
 
 ```
-- components
-  - article 文章详情
-  - articles 文章列表
-  - comments 评论
-  - loadEnd 加载完成
-  - loading 加载中
-  - login 登录
-  - message 留言
-  - nav 导航
-  - project 项目
-  - register 注册
-  - slider 右边栏（博主 logo 、链接和标签等）
-  - artchive 归档
-  - timeLine 时间轴(历程)
-- router 路由
-- store redux 的状态管理
-- utils 封装的常用的方法
-- views 框架页面
+- pages
+  - Account 博主个人中心
+  - article 文章管理
+  - Category 分类
+  - Dashboard 工作台
+  - Exection 403 404 500 等页面
+  - Link 链接管理
+  - Message 留言管理
+  - OtherUser 用户管理
+  - Project 项目
+  - Tag 标签管理
+  - TimeAsix 时间轴
+  - User 登录注册管理
 ```
 
-## 注意点
+文章管理、用户管理、留言等 具体业务需求，都是些常用的逻辑可以实现的，也很简单，这里就不展开讲了。
 
-- 关于 页面
+## 添加富文本编辑器，同样支持 markdown 语法 
 
-对于 关于 的页面，其实是一篇文章来的，根据文章类型 type 来决定的，数据库里面 type 为 3
-的文章，只能有一篇就是 博主介绍 ；达到了想什么时候修改内容都可以。
+添加的编辑器为 [simplemde-markdown-editor](https://github.com/HYYEVOLCLJ/simplemde-markdown-editor.git)
 
-所以当 this.props.location.pathname === '/about' 时就是请求类型为 博主介绍 的文章。
+效果图
 
-```
-type: 3, // 文章类型: 1：普通文章；2：是博主简历；3 ：是博主简介；
-```
 
-## Build Setup ( 建立安装 )
+![效果图1](https://user-images.githubusercontent.com/24362914/49021611-01c45080-f1ce-11e8-988a-8c1064a448de.png)
 
-```
+
+参考的文章为 [react 搭建博客---支持markdown的富文本编辑器](https://segmentfault.com/a/1190000010616632)
+
+
+## 搭建
+
+使用详情请查看 [Blog Admin ](https://pro.ant.design/docs/getting-started-cn)，因为本项目也是在这个基础之上，按这个规范来构建的。
+
+
+## 缺点
+
+开发时，程序出错后，修改正确后，webpack 有时不会及时查觉到内容已经更改，从而不能及时编译，要重新运行命令打包。
+
+笔者的文章里面的图片都是上传到简书上的，创建文章时，只是写个图片链接而已，你们也可以上传到简书或者七牛云，或者其他第三方。
+
+
+## Build Setup ( 构建安装 )
+
+``` 
 # install dependencies
-npm install
+npm install 
 
 # serve with hot reload at localhost: 3000
-npm start 或者 yarn start
+npm start 
 
 # build for production with minification
-npm run build 或者 yarn run build
+npm run build 
 ```
 
-如果要看完整的效果，是要和后台项目 **[blog-node](https://github.com/biaochenxuying/blog-node)** 一起运行才行的，不然接口请求会失败。
+如果要看完整的效果，是要和后台项目  **[blog-node](https://github.com/biaochenxuying/blog-node)** 一起运行才行的，不然接口请求会失败。
 
-虽然引入了 mock 了，但是还没有时间做模拟数据，想看具体效果，请稳步到我的网站上查看 [http://biaochenxuying.cn:2019](http://biaochenxuying.cn:2019)
+
+## 项目常见问题
+
+### 管理员账号创建
+
+![](https://upload-images.jianshu.io/upload_images/12890819-67861a912768e646.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+管理后台的登录账号并不是 admin/user ，也不是搭建 mongodb 数据库时创建的 user 用户，这里的账号和密码要自己创建，至于怎样创建呢？
+
+### 用 postman 调接口注册
+
+如果是本地的可以像这样子创建，如果是服务器上的，请把 url 修改一下，
+
+
+![注册](https://upload-images.jianshu.io/upload_images/12890819-3772744f72b8ed3e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+- 1.  url 
+
+```
+http://127.0.0.1:3000/register
+```
+
+- 2. param
+```
+{
+ "name": "BiaoChenXuYing",
+ "password": "888888",
+ "email": "admin@qq.com",
+ "phone": 1380013800,
+ "type": 0,
+ "introduce":"加班到天明，学习到昏厥!!! 微信公众号：【 BiaoChenXuYing 】，分享 WEB 全栈开发等相关的技术文章，热点资源，全栈程序员的成长之路。"
+}
+```
+这里的 type 为 0 是管理员账号，为 1 时，是普通用户。
+
+### 权限
+
+注册了管理员账号，并用管理员账号登录，还不能正常登录管理后台的，会被重定向加登录页面。因为权限管理的限制，要把自己注册的管理员账号的 **名字** 加在 config/router.config.js 的 authority 里面。
+
+详情请看：
+
+```
+https://pro.ant.design/docs/authority-management-cn
+```
 
 ## 项目地址与文档教程
 
-其他具体的业务代码，都是些常会见到的需求，这里就不展开讲了。
+开源不易，如果觉得该项目不错或者对你有所帮助，欢迎到 github 上给个 star，谢谢。
 
 **项目地址：**
 
-> [前台展示: https://github.com/biaochenxuying/blog-react](https://github.com/biaochenxuying/blog-react)
+> [前台展示: http://www.huyangyang.cn:81/)
 
-> [前台展示: https://github.com/biaochenxuying/blog-vue-typescript](https://github.com/biaochenxuying/blog-vue-typescript)
-
-> [管理后台：https://github.com/biaochenxuying/blog-react-admin](https://github.com/biaochenxuying/blog-react-admin)
-
-> [后端：https://github.com/biaochenxuying/blog-node](https://github.com/biaochenxuying/blog-node)
-
-> [blog：https://github.com/biaochenxuying/blog](https://github.com/biaochenxuying/blog)
+> [后台展示: http://www.huyangyang.cn:444/)
 
 **本博客系统的系列文章：**
 
-- 1. [react + node + express + ant + mongodb 的简洁兼时尚的博客网站](https://biaochenxuying.cn/articleDetail?article_id=5bf57a8f85e0f13af26e579b)
-- 2. [react + Ant Design + 支持 markdown 的 blog-react 项目文档说明](https://biaochenxuying.cn/articleDetail?article_id=5bf6bb5e85e0f13af26e57b7)
-- 3. [基于 node + express + mongodb 的 blog-node 项目文档说明](https://biaochenxuying.cn/articleDetail?article_id=5bf8c57185e0f13af26e7d0d)
-- 4. [服务器小白的我,是如何将 node+mongodb 项目部署在服务器上并进行性能优化的](https://biaochenxuying.cn/articleDetail?article_id=5bfa728bb54f044b4f9da240)
-- 5. [github 授权登录教程与如何设计第三方授权登录的用户表](https://biaochenxuying.cn/articleDetail?article_id=5c7bd34e42b55e2ecc90976d)
-- 6. [一次网站的性能优化之路 -- 天下武功，唯快不破](https://biaochenxuying.cn/articleDetail?article_id=5c8ca2d3b87b8a04f1860c9a)
-- 7. [Vue + TypeScript + Element 搭建简洁时尚的博客网站及踩坑记](https://biaochenxuying.cn/articleDetail?article_id=5c9d8ce5f181945ddd6b0ffc)
+- 1. [将node+mongodb项目部署在服务器上并进行性能优化](http://www.huyangyang.cn:81/articleDetail?article_id=5cd53e19da4a893349b47908)
+- 2. [后端spring boot项目和后台ant design pro项目部署到服务器](http://www.huyangyang.cn:81/articleDetail?article_id=5cd53bb1da4d893349b47903)
+- 3. [linux学习](http://www.huyangyang.cn:81/articleDetail?article_id=5cd53a29da4d893349b47900)
+- 4. [后端项目学习总结](http://www.huyangyang.cn:81/articleDetail?article_id=5cd5398bda4d893349b478ff)
+......
 
 ## 最后
 
 如果您觉得本项目和文章不错或者对你有所帮助，请给个星吧，你的肯定就是我继续创作的最大动力。
 
-鉴于问问题的人有点多，笔者时间有限，处理不过来，大家可以加入 QQ 群：**186045338**，加群暗号：**全栈修炼** ，一起相互交流学习。
 
-欢迎关注以下公众号，学到不一样的 **武功秘籍** ！
+欢迎关注以下公众号[全栈修炼congcong]
 
-关注公众号并回复 **福利** 可领取免费学习资料，福利详情请猛戳： [免费资源获取--Python、Java、Linux、Go、node、vue、react、javaScript](https://biaochenxuying.cn/articleDetail?article_id=5bf4ba3c245730373274df61)
+(https://hyymyblog.oss-cn-hangzhou.aliyuncs.com/erweima.jpg?x-oss-process=style/thumbnail)
 
-![BiaoChenXuYing.png](https://upload-images.jianshu.io/upload_images/12890819-4d7d488cb8fbb76f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
