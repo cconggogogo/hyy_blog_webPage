@@ -90,7 +90,7 @@ npm start
 npm run build 
 ```
 
-如果要看完整的效果，是要和后台项目  **[blog-node](https://github.com/biaochenxuying/blog-node)** 一起运行才行的，不然接口请求会失败。
+如果要看完整的效果，是要和后台项目  **[blog-node](https://github.com/huyangyang/blog-node)** 一起运行才行的，不然接口请求会失败。
 
 
 ## 项目常见问题
@@ -118,12 +118,12 @@ http://127.0.0.1:3000/register
 - 2. param
 ```
 {
- "name": "BiaoChenXuYing",
+ "name": "huyangyang",
  "password": "888888",
  "email": "admin@qq.com",
  "phone": 1380013800,
  "type": 0,
- "introduce":"加班到天明，学习到昏厥!!! 微信公众号：【 BiaoChenXuYing 】，分享 WEB 全栈开发等相关的技术文章，热点资源，全栈程序员的成长之路。"
+ "introduce":"加班到天明，学习到昏厥!!! 微信公众号：【 huyangyang 】，分享 WEB 全栈开发等相关的技术文章，热点资源，全栈程序员的成长之路。"
 }
 ```
 这里的 type 为 0 是管理员账号，为 1 时，是普通用户。

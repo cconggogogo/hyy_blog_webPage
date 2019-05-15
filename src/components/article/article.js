@@ -27,7 +27,7 @@ class Articles extends Component {
       type: 1, //文章类型 => 1: 普通文章，2: 简历，3: 管理员介绍
       articleDetail: {
         _id: '',
-        author: 'biaochenxuying',
+        author: 'huyangyang',
         category: [],
         comments: [],
         create_time: '',
@@ -201,10 +201,10 @@ class Articles extends Component {
   }
 
   componentWillUnmount() {
-    document.title = 'BiaoChenXuYing 的博客网站';
+    document.title = 'huyangyang 的博客网站';
     document
       .getElementById('keywords')
-      .setAttribute('content', 'BiaoChenXuYing 的博客网站');
+      .setAttribute('content', 'huyangyang 的博客网站');
     document
       .getElementById('description')
       .setAttribute(
