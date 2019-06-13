@@ -129,14 +129,14 @@ class SliderRight extends Component {
           <div className="title">标签云</div>
           {list}
         </div>
-        <div className="introduce">
-          <div className="title">本站公众号</div>
-          <div className="content">
-            分享 WEB 全栈开发等相关的技术文章，热点资源<br />
-            全栈程序员的成长之路
-            <img style={{'width':'100%',marginTop: '20px'}} src={erweima} alt="公众号" />
-          </div>
-        </div>
+        {/*<div className="introduce">*/}
+          {/*<div className="title">本站公众号</div>*/}
+          {/*<div className="content">*/}
+            {/*分享 WEB 全栈开发等相关的技术文章，热点资源<br />*/}
+            {/*全栈程序员的成长之路*/}
+            {/*<img style={{'width':'100%',marginTop: '20px'}} src={erweima} alt="公众号" />*/}
+          {/*</div>*/}
+        {/*</div>*/}
       </div>
     );
   }
